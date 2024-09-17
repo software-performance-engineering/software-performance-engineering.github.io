@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><title>6.S894</title><base href="/spring25/syllabus/"><meta content="width=device-width, initial-scale=1" name="viewport"><style>@font-face {
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><title>CSE 491</title><base href="/spring25/syllabus/"><meta content="width=device-width, initial-scale=1" name="viewport"><style>@font-face {
     font-family: "Tex Gyre Heros";
     src: url("/spring25/assets/font/tex-gyre-heros/texgyreheros-regular.otf") format("opentype");
     font-weight: regular;
@@ -21,7 +21,7 @@
     src: url("/spring25/assets/font/tex-gyre-heros/texgyreheros-bolditalic.otf") format("opentype");
     font-weight: bold;
     font-style: italic;
-}</style><link href="/spring25/assets/main.css" rel="stylesheet"><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" rel="stylesheet"><link href="/spring25/assets/favicon.png" rel="icon" type="image/png"></head><body><header><nav><h1><a href="/spring25/">6.S894</a></h1>
+}</style><link href="/spring25/assets/main.css" rel="stylesheet"><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" rel="stylesheet"><link href="/spring25/assets/favicon.png" rel="icon" type="image/png"></head><body><header><nav><h1><a href="/spring25/">CSE 491</a></h1>
 <p><a href="/spring25/calendar">Calendar</a></p>
 <p><a href="/spring25/labs">Labs</a></p>
 <p><a href="/spring25/syllabus">Syllabus</a></p>
@@ -29,20 +29,43 @@
 <p><a href="/spring25/contact">Contact</a></p>
 <p><a href="/spring25/piazza">Piazza</a></p>
 </nav></header><main><h1>Syllabus</h1>
-<p>This course aims to teach you how to write fast code for the specialized hardware and accelerators proliferating in modern computers. In MIT terms, it is a spiritual follow-on to 6.106 (6.172) Software Performance Engineering, where we graduate from mainstream CPUs to things like GPUs. (6.106 or similar low-level programming, performance analysis, computer architecture, and performance optimization experience is expected as a prerequisite.)</p>
-<p>Key things we expect you to learn include:</p>
-<ul>
-<li>
-<p><strong>Why do accelerators like GPUs look the way they do?</strong> We will both motivate and explain key architectural issues patterns like SIMD, multithreading, latency hiding, memory systems, matrix units, and spatial architectures (FPGAs/CGRAs), and see how similar ideas manifest in everything from multicore CPUs, to GPUs, TPUs, IPUs, and DSPs.</p>
-</li>
-<li>
-<p><strong>How can we program them for high performance?</strong> The course emphasizes developing practical experience writing &amp; optimizing code on modern accelerators (mostly CUDA on NVIDIA GPUs), and how the major architectural ideas manifest in how we program them.</p>
-</li>
-<li>
-<p><strong>How to reason about accelerator performance from first principles.</strong></p>
-</li>
-</ul>
-<p>The course is brand new, experimental, and under active development this term; you should expect rough edges. But we are excited to have you along on the journey with us, and are eager share what we know while also learning together with you!</p>
-</main><footer><p><a href="https://mit.edu">Massachusetts Institute of Technology</a> —
-<a href="https://www.eecs.mit.edu">Department of Electrical Engineering and Computer Science</a></p>
-</footer></body></html>
+
+  <h2> Course Description </h2>
+
+  <p>
+    Modern computing platforms provide unprecedented amounts of raw computational power.
+    But with great power comes great complexity, to the point that making useful computations exploit even a fraction of the computing platform’s potential becomes a substantial challenge.
+    Indeed, obtaining good performance requires a comprehensive understanding of all layers of the underlying platform, deep insight into the computation at hand,
+    and the ingenuity and creativity required to obtain an effective mapping of the computation onto the machine.
+    The reward for mastering these sophisticated and challenging topics is the ability to make computations that can process large amounts of data orders of magnitude more quickly and efficiently
+    and to obtain results that are unavailable with standard practice.
+  </p>
+  <p>
+    This is an 18-unit class that provides a hands-on, project-based introduction to building scalable and high-performance software systems.
+    Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, caching optimizations, parallel programming, and building scalable systems.
+  </p>
+
+  <h3> Prerequisites </h3>
+
+  <p>
+    The course programming language is C. The prerequisites for this class are:
+    <ul>
+    <li> <a href="https://student.mit.edu/catalog/m6a.html#6.1910">Computer Organization</a>  </li>
+    <li> <a href="https://student.mit.edu/catalog/m6a.html#6.1210">Introduction to Algorithms</a>   </li>
+    <li> <a href="https://www.cse.msu.edu/~cse232/">C/C++ programming</a>  </li>
+    </ul>
+  </p>
+
+<p>
+  The course is brand new, experimental, and under active development this term; you should expect rough edges.
+  But we are excited to have you along on the journey with us, and are eager share what we know while also learning together with you!
+</p>
+</main>
+
+<footer>
+  <p><a href="https://msu.edu">MSU</a> —
+     <a href="https://www.cse.msu.edu">Department of Computer Science Engineering</a>
+  </p>
+</footer>
+</body>
+</html>

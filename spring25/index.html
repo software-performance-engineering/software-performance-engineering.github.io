@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><title>6.S894</title><base href="/spring25/"><meta content="width=device-width, initial-scale=1" name="viewport"><style>@font-face {
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><title>CSE 491</title><base href="/spring25/"><meta content="width=device-width, initial-scale=1" name="viewport"><style>@font-face {
     font-family: "Tex Gyre Heros";
     src: url("/spring25/assets/font/tex-gyre-heros/texgyreheros-regular.otf") format("opentype");
     font-weight: regular;
@@ -21,40 +21,40 @@
     src: url("/spring25/assets/font/tex-gyre-heros/texgyreheros-bolditalic.otf") format("opentype");
     font-weight: bold;
     font-style: italic;
-}</style><link href="/spring25/assets/main.css" rel="stylesheet"><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" rel="stylesheet"><link href="/spring25/assets/favicon.png" rel="icon" type="image/png"></head><body><header><nav><h1><a href="/spring25/">6.S894</a></h1>
+}</style><link href="/spring25/assets/main.css" rel="stylesheet"><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" rel="stylesheet"><link href="/spring25/assets/favicon.png" rel="icon" type="image/png"></head><body><header><nav><h1><a href="/spring25/">CSE 491</a></h1>
 <p><a href="/spring25/calendar">Calendar</a></p>
 <p><a href="/spring25/labs">Labs</a></p>
 <p><a href="/spring25/syllabus">Syllabus</a></p>
 <p><a href="/spring25/resources">Resources</a></p>
 <p><a href="/spring25/contact">Contact</a></p>
 <p><a href="/spring25/piazza">Piazza</a></p>
-</nav></header><main><h1>6.S894: Accelerated Computing</h1>
+</nav></header><main><h1>CSE 491: Accelerated Computing</h1>
 <p><strong>Term:</strong> Spring 2025 <br>
-<strong>Instructor:</strong> <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a> <br>
-<strong>Lecture:</strong> Thursdays 2pm-3pm, room <a href="https://whereis.mit.edu/?go=34">34-303</a> <br>
-<strong>Lab:</strong> Tuesdays 2pm-4pm, room <a href="https://whereis.mit.edu/?go=24">24-307</a> <br>
-<strong>TAs</strong>: <a href="mailto:wbrandon@mit.edu">William Brandon</a>, <a href="https://www.nikita.tech/">Nikita Lazarev</a> <br></p>
+<strong>Instructor:</strong> <a href="https://chenxuhao.github.io/">Xuhao Chen</a> <br>
+<strong>Lecture:</strong> 12:40-2:00 MW in 1225 Engineering <br>
+<strong>Lab:</strong> TBD </a> <br>
+<strong>TAs</strong>: <a href="">TBD</a>, <a href="">TBD</a> <br></p>
 <h2>Welcome!</h2>
-<p>6.S894 is a new graduate-level course at MIT focused on performance engineering for specialized hardware accelerators. We aim to convey both:</p>
+<p>CSE 491 is a new graduate-level course focused on software performance engineering. We aim to convey both:</p>
 <ol>
 <li>
-<p><strong>First-principles understanding:</strong> <br> <em>Why</em> do modern accelerator architectures look the way they do?</p>
+<p><strong>First-principles understanding:</strong> <br> <em>Why</em> do modern processor architectures look the way they do?</p>
 </li>
 <li>
 <p><strong>Hands-on experience:</strong> <br> <em>How</em> do we write fast code for these platforms in practice?</p>
 </li>
 </ol>
-<p>Most of the assignments in this course focus on programming GPUs, for which we use NVIDIA’s <a href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html">CUDA</a> programming language. Students are expected to complete weekly programming assignments, participate in weekly in-person lab sessions, and present a final project at the end of the semester on a topic of their choice.</p>
+<p>Most of the assignments in this course focus on programming in C/C++. Students are expected to complete weekly programming assignments, participate in weekly in-person lab sessions, and present a final project at the end of the semester on a topic of their choice.</p>
 <h2>Announcements</h2>
 <ul>
 <li>
-<p><strong>Lab 1 Final</strong> due <strong>Friday, September 13</strong>. (<a href="https://www.gradescope.com/courses/849967/assignments/4922974/">Gradescope</a>)</p>
+<p><strong>Lab 1 Final</strong> due <strong>Friday, September 13</strong>. (<a href="https://www.gradescope.com/courses/">Gradescope</a>)</p>
 </li>
 <li>
-<p><strong>Lab 2: Massively-Parallel Mandelbrot</strong> has been released! (<a href="/spring25/labs/lab2">Instructions</a>)</p>
+<p><strong>Lab 2</strong> has been released! (<a href="/spring25/labs/lab2">Instructions</a>)</p>
 </li>
 <li>
-<p><strong>Lab 2 Checkpoint</strong> due <strong>Monday, September 16</strong>. (<a href="https://www.gradescope.com/courses/849967/assignments/4955974/">Gradescope</a>)</p>
+<p><strong>Lab 2 Checkpoint</strong> due <strong>Monday, September 16</strong>. (<a href="https://www.gradescope.com/courses/">Gradescope</a>)</p>
 </li>
 <li>
 <p><strong>Lab 2 Final</strong> due <strong><em>Saturday</em>, September 21</strong>.</p>
