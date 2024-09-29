@@ -34,14 +34,20 @@
 
   <p>
     Modern computing platforms provide unprecedented amounts of raw computational power.
-    But with great power comes great complexity, to the point that making useful computations exploit even a fraction of the computing platform’s potential becomes a substantial challenge.
-    Indeed, obtaining good performance requires a comprehensive understanding of all layers of the underlying platform, deep insight into the computation at hand,
+    But with great power comes great complexity, to the point that making useful computations 
+    exploit even a fraction of the computing platform’s potential becomes a substantial challenge.
+    Indeed, obtaining good performance requires a comprehensive understanding of all layers of the underlying platform, 
+    deep insight into the computation at hand,
     and the ingenuity and creativity required to obtain an effective mapping of the computation onto the machine.
-    The reward for mastering these sophisticated and challenging topics is the ability to make computations that can process large amounts of data orders of magnitude more quickly and efficiently
+    The reward for mastering these sophisticated and challenging topics is the ability to make computations 
+    that can process large amounts of data orders of magnitude more quickly and efficiently
     and to obtain results that are unavailable with standard practice.
   </p>
   <p>
-    This is an 18-unit class that provides a hands-on, project-based introduction to building scalable and high-performance software systems.
+    More on <a href="why-spe.html">Why should I learn Software Performance Engineering (SPE)?</a>
+  </p>
+  <p>
+    This class provides a hands-on, project-based introduction to building scalable and high-performance software systems.
     Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, caching optimizations, parallel programming, and building scalable systems.
   </p>
 
@@ -50,46 +56,61 @@
   <p>
     The course programming language is C. The prerequisites for this class are:
     <ul>
-    <li> <a href="https://student.mit.edu/catalog/m6a.html#6.1910">Computer Organization</a>  </li>
-    <li> <a href="https://student.mit.edu/catalog/m6a.html#6.1210">Introduction to Algorithms</a>   </li>
-    <li> <a href="https://www.cse.msu.edu/~cse232/">C/C++ programming</a>  </li>
+    <li> <a href="https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/">Computation Structures</a> or <a href="https://www.cse.msu.edu/~cse320/22Spring/syllabus.php">Computer Organization</a>  </li>
+    <li> <a href="https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/">Introduction to Algorithms</a> or <a href="https://intranet.cse.msu.edu/Courses/cse331/cse331-ss22.pdf">Algorithms and Data Structures</a>  </li>
+    <li> <a href="https://llp.mit.edu/6190/S24B/course_information">Introduction to Low-level Programming in C and Assembly</a> or <a href="https://www.cse.msu.edu/~cse232/">C/C++ programming</a>  </li>
     </ul>
   </p>
 
   <h3> Grading </h3>
 
-  <p> Each assignment will describe how you will be graded.
+  <p>
+    Each assignment will describe how you will be graded.
     The scores you receive on each assignment will be combined to produce your final grade after being weighted approximately.
   <p>
 
-  <table>
-  <thead> <tr> <th> Assignments </th> <th> Percentages </th> </p> </tr> <p> </thead>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-2b7s{text-align:right;vertical-align:bottom}
+.tg .tg-bobw{font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-7zrl{text-align:left;vertical-align:bottom}
+</style>
+<table class="tg"><thead>
   <tr>
-  <td> Weekly Homeworks </td> <td> 10% </td> </p>
-  <p> </tr> <tr> <td> Quizzes </td> <td> 30% </td> </p>
-  <p> </tr> <tr> <td> Project 1 </td> <td> 10% </td> </p>
-  <p> </tr> <tr> <td> Project 2 </td><td> 12% </td> </p>
-  <p></tr> <tr>
-
-  <td> Project 3 </td>
-  <td> 12% </td> </p>
-  <p></tr> <tr> <td> Project 4 </td> <td> 24% </td> </p>
-  <p></tr> <tr> <td> Class Participation </td> <td> 2% </td> </p> </tr>
-  </table>
-
-  </p>
-
-  <h3> Computing Resources </h3>
-
-  <p> <a href="http://speedcode.org/">SpeedCode</a> </p>
-
-  <p> <a href="https://tig.csail.mit.edu/shared-computing/slurm/">CSAIL Slurm</a> </p>
-
-  <p> <a href="https://mit-satori.github.io/">Satori</a> </p>
-
-  <p> <a href="https://docs.google.com/document/d/1MGrXJXV2Q9bgfStQuEVWpDxoJXdNE1hDCgldRVPdFaI/edit#heading=h.rp7lyrv7xmlt">NCSA delta</a> </p>
-
-  <p> <a href="https://engaging-web.mit.edu/eofe-wiki/">Engaging</a> </p>
+    <th class="tg-bobw"><span style="font-weight:bold">Assignments</span></th>
+    <th class="tg-bobw"><span style="font-weight:bold">Percentages</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-7zrl"><span style="font-weight:normal">Weekly Homeworks</span></td>
+    <td class="tg-2b7s"><span style="font-weight:normal">20%</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl"><span style="font-weight:normal">Quizzes</span></td>
+    <td class="tg-2b7s"><span style="font-weight:normal">30%</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl"><span style="font-weight:normal">Project 1</span></td>
+    <td class="tg-2b7s"><span style="font-weight:normal">15%</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl"><span style="font-weight:normal">Project 2</span></td>
+    <td class="tg-2b7s"><span style="font-weight:normal">15%</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl"><span style="font-weight:normal">Project 3</span></td>
+    <td class="tg-2b7s"><span style="font-weight:normal">15%</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl"><span style="font-weight:normal">Class Participation</span></td>
+    <td class="tg-2b7s"><span style="font-weight:normal">5%</span></td>
+  </tr>
+</tbody></table>
 
 <p>
   The course is brand new, experimental, and under active development this term; you should expect rough edges.
