@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><title>CSE 491</title><base href="/spring25/"><meta content="width=device-width, initial-scale=1" name="viewport"><style>@font-face {
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><title>CSE 491</title><base href="/spring25/"><meta content="width=device-width, initial-scale=1" name="viewport">
+<style>
+@font-face {
     font-family: "Tex Gyre Heros";
     src: url("/spring25/assets/font/tex-gyre-heros/texgyreheros-regular.otf") format("opentype");
     font-weight: regular;
@@ -21,30 +23,102 @@
     src: url("/spring25/assets/font/tex-gyre-heros/texgyreheros-bolditalic.otf") format("opentype");
     font-weight: bold;
     font-style: italic;
-}</style><link href="/spring25/assets/main.css" rel="stylesheet"><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" rel="stylesheet"><link href="/spring25/assets/favicon.png" rel="icon" type="image/png"></head><body><header><nav><h1><a href="/spring25/">CSE 491</a></h1>
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+<link href="/spring25/assets/main.css" rel="stylesheet">
+<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" rel="stylesheet">
+<link href="/spring25/assets/favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<header>
+<nav>
+<h1><a href="/spring25/">CSE 491</a></h1>
 <p><a href="/spring25/calendar">Calendar</a></p>
 <p><a href="/spring25/labs">Labs</a></p>
 <p><a href="/spring25/syllabus">Syllabus</a></p>
 <p><a href="/spring25/resources">Resources</a></p>
 <p><a href="/spring25/contact">Contact</a></p>
 <p><a href="/spring25/piazza">Piazza</a></p>
-
-</nav></header>
+</nav>
+</header>
 
 <main>
 
 <h1>Why should I learn Software Performance Engineering (SPE)?</h1>
 
-Software Performance Engineering (SPE) is useful in many application domains, 
-including computational physics, chemical engineering, bioinformatics and finance.
+<p>
+Software Performance Engineering (SPE)—making software run fast or otherwise consume fewer resources,
+such as time, storage, energy, network bandwidth, etc.—is emerging as a key technology for enabling programmers to enhance application performance in the post-Moore’s Law era.
+For decades, programmers could rely on Moore’s Law to speed up their applications, if they simply waited for new and faster hardware.
+But the end of Moore’s Law put an end to the exponential growth in semiconductor performance, which has put pressure on programmers to understand software performance.
+Unfortunately, most lack the background to do so.
+Their plight is exacerbated by modern parallel architectures (e.g. multicore CPUs and GPUs) and complicated computing systems whose capabilities can be hard for average programmers to exploit.
+</p>
 
-  <p><img src="images/bio.jpg" alt="" /></p>
+<div class="row">
+  <div class="column" style="align: left; text-align:center;">
+    <img src="images/bio.jpg" alt="bio" style="width:100%">
+    <figcaption><strong>Computational biology</strong></figcaption>
+  </div>
+  <div class="column" style="align: left; text-align:center;">
+    <img src="images/physics.jpg" alt="physics" style="width:100%">
+    <figcaption><strong>Computational physics</strong></figcaption>
+  </div>
+</div>
 
-  <p><img src="images/chemistry.jpg" alt="" /></p>
 
-  <p><img src="images/finance.jpeg" alt="" /></p>
+<p>
+According to sources in industry and the national laboratories, graduating students in computer science are largely ignorant of performance-engineering skills.
+They lack an understanding of performance-engineering methods such as measurement, caching, vectorization, algorithms, profiling, compiler optimization, parallelism,
+concurrency, and many other techniques that currently are either distributed across university curricula, covered inadequately, or not taught at all.
+They cannot integrate their knowledge of algorithms, computer architecture, and software, and they have little understanding of theoretical models and foundational principles of performance.
+</p>
 
-  <p><img src="images/physics.jpg" alt="" /></p>
+<div class="row">
+  <div class="column" style="align: left; text-align:center;">
+    <img src="images/chemistry.jpg" alt="chemistry" style="width:100%">
+    <figcaption><strong>Computational chemistry</strong></figcaption>
+  </div>
+  <div class="column" style="align: left; text-align:center;">
+    <img src="images/finance.jpeg" alt="finance" style="width:100%">
+    <figcaption><strong>Computational finance</strong></figcaption>
+  </div>
+</div>
+
+<p>
+SPE is traditionally used for scientific computing, such as computational physics, chemical engineering, bioinformatics, weather forecasting, healthcare and life sciences.
+In the post-Moore’s Law era, SPE becomes useful in almost all the application domains where you have lots of data to process.
+This includes all the IT companies who spend most of their resources on training large machine learning models or managing cloud computing in datacenters.
+More interestingly, there are also high computational demands in finance and manufacturing.
+As a performance engineer, if you are interested in finding a job in finance,
+<a href="https://medium.com/@Ashton_/high-performance-computing-in-hft-high-frequency-trading-9f8813c7cc97">here is an example</a> of how SPE is used in high-frequency trading (HFT).
+In manufacturing, SPE is the enabler to simulations for autonomous driving, car crash safety, and airflow over plane wings.
+</p>
+
+<p align="center">
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/yLbzSdcG8oM">
+</iframe>
+</p>
+
 
 </main>
 
