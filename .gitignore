@@ -1,2 +1,5 @@
 
 .site_build_target_dir_*
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
