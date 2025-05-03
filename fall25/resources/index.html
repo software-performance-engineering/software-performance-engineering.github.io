@@ -1,0 +1,90 @@
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><title>Home</title><base href="/fall25/resources/"><meta content="width=device-width, initial-scale=1" name="viewport"><style>@font-face {
+    font-family: "Tex Gyre Heros";
+    src: url("/fall25/assets/font/tex-gyre-heros/texgyreheros-regular.otf") format("opentype");
+    font-weight: regular;
+    font-style: regular;
+}
+@font-face {
+    font-family: "Tex Gyre Heros";
+    src: url("/fall25/assets/font/tex-gyre-heros/texgyreheros-bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: regular;
+}
+@font-face {
+    font-family: "Tex Gyre Heros";
+    src: url("/fall25/assets/font/tex-gyre-heros/texgyreheros-italic.otf") format("opentype");
+    font-weight: regular;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Tex Gyre Heros";
+    src: url("/fall25/assets/font/tex-gyre-heros/texgyreheros-bolditalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}</style><link href="/fall25/assets/main.css" rel="stylesheet"><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" rel="stylesheet"><link href="/fall25/assets/favicon.png" rel="icon" type="image/png"></head><body><header><nav><h1><a href="/fall25/">Home</a></h1>
+<p><a href="/fall25/calendar">Calendar</a></p>
+<p><a href="/fall25/labs">Labs</a></p>
+<p><a href="/fall25/syllabus">Syllabus</a></p>
+<p><a href="/fall25/resources">Resources</a></p>
+<p><a href="/fall25/contact">Contact</a></p>
+<p><a href="/fall25/piazza">Piazza</a></p>
+</nav></header>
+
+<main><h1>Resources</h1>
+
+  <h2>Course Resources</h2>
+  <ul>
+  <!--
+    <li>  <p>Telerun client repo (<a href="https://github.com/accelerated-computing-class/telerun">Link</a>)</p>  </li>
+    <li>  <p>Errata:</p>  <ul>  <li>L1 Cache Behavior (<a href="/fall25/resources/errata/l1-cache">Link</a>)</li>  </ul>  </li>
+  -->
+    <li> <a href="/fall25/resources/parallel.pdf">CLRS 4/e - Chapter 26 - Parallel Algorithms</a></li> 
+    <li> <a href="/fall25/resources/10_Tableau_Construction.pdf">10_Tableau_Construction.pdf</a></li>
+    <li> <a href="/fall25/resources/x86+cheatsheet.pdf">x86 Cheatsheet</a></li>
+    <li> <a href="/fall25/resources/queens-cel.c">N-Queens Code</a> </li>
+    <li> <a href="/fall25/resources/llvmir_cheat_sheet.pdf">LLVM IR Cheatsheet</a></li>
+    <li> <a href="/fall25/resources/LeisersonThEm20.pdf">There's Plenty of Room at the Top</a></li>
+    <li> <a href="/fall25/resources/Divide-and-Conquer_Recurrences.pdf">Divide-and-Conquer_Recurrences.pdf</a></li>
+    <li> <a href="/fall25/resources/SchardlDeDo17.pdf">SchardlDeDo17.pdf</a></li>
+    <li> <a href="/fall25/resources/Master_Method_Business_Cards.pdf">Master_Method_Business_Cards.pdf</a></li>
+    <li> <a href="https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/">MIT 6.172: Performance Engineering of Software Systems</a> </li>
+</ul>
+
+  <h2>External Resources</h2>
+  <ul>
+  <li>  <p>CUDA C++ Programming Guide (<a href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html">Link</a>)</p>  <ul>
+  <li>Table of instruction throughputs (<a href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#arithmetic-instructions">Link</a>) <br>
+      (Note: we are using Compute Capability 8.6)</li>  </ul>  </li>
+  <li>  <p>PTX Reference Manual (<a href="https://docs.nvidia.com/cuda/parallel-thread-execution/">Link</a>)</p>  <ul>
+  <li>  <p>Inline PTX syntax guide (<a href="https://docs.nvidia.com/cuda/inline-ptx-assembly/index.html">Link</a>)</p>  </li>
+  <li>  <p>Tensor core instruction data layouts (<a href="https://docs.nvidia.com/cuda/parallel-thread-execution/#warp-level-matrix-fragment-mma-1688">Link</a>)</p> </li>
+  </ul>
+  </li>
+  <li>  <p>SASS Instruction List (<a href="https://docs.nvidia.com/cuda/cuda-binary-utilities/index.html#nvidia-ampere-gpu-and-ada-instruction-set">Link</a>)</p> </li>
+  <li>  <p>Compiler Explorer by Matt Godbolt (<a href="https://godbolt.org/">Link</a>)</p>  <ul>
+  <li>  <p>Lets you view the assembly generated for C++ and CUDA programs <br> (among many other languages!)</p>  </li>
+  <li>  <p>Compiler Explorer page configured for this course (<a href="https://godbolt.org/z/Pbf494Tzd">Link</a>)</p>  </li>
+  </ul>
+  </li>
+  <li>  <p>GPU Mode (<a href="https://github.com/gpu-mode">Link</a>)</p>  <ul>
+  <li>Online reading group and Discord community devoted to studying high-performance GPU programming</li>
+  </ul>
+  </li>
+  </ul>
+
+  <h3> Computing Resources </h3>
+  <p> <a href="http://speedcode.org/">SpeedCode</a> </p>
+  <p> <a href="https://tig.csail.mit.edu/shared-computing/slurm/">CSAIL Slurm</a> </p>
+  <p> <a href="https://mit-satori.github.io/">Satori</a> </p>
+  <p> <a href="https://docs.google.com/document/d/1MGrXJXV2Q9bgfStQuEVWpDxoJXdNE1hDCgldRVPdFaI/edit#heading=h.rp7lyrv7xmlt">NCSA delta</a> </p>
+  <p> <a href="https://engaging-web.mit.edu/eofe-wiki/">Engaging</a> </p>
+
+</main>
+
+<footer>
+  <p><a href="https://msu.edu">MSU</a> —
+     <a href="https://www.cse.msu.edu">Department of Computer Science Engineering</a>
+  </p>
+</footer>
+
+</body></html>
